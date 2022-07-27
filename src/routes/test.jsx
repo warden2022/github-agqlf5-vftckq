@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 export default function Test() {
   return (
     <main style={{ padding: '1rem 0' }}>
