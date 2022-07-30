@@ -4,6 +4,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 code {
@@ -17,4 +22,25 @@ main > :first-child {
 
 main > :last-child {
   margin-bottom: 0;
+}
+
+
+#effect-example-7 {
+  height: 260px;
+  max-width: 360px;
+  margin: 0 auto;
+}
+#effect-example-7 tbody {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow:
+    inset -5px -5px 10px rgba(0, 0, 0, 0.5),
+    5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#effect-example-7 tbody td {
+  margin-inline: 10px;
+  border-radius: 10px;
+  box-shadow:
+    inset -5px -5px 10px rgba(0, 0, 0, 0.5),
+    5px 5px 5px rgba(0, 0, 0, 0.5);
 }
